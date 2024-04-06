@@ -1,0 +1,28 @@
+.header {
+  margin: 20px auto;
+  text-align: center;
+}
+.imgContainer {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 0;
+  background-color: rgba(234, 241, 242, 0.5);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row-gap: 30px;
+  text-align: center;
+}
+.imgContainer img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.imgContainer .title {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.imgContainer .rate {
+  color: chocolate;
+  font-size: 20px;
+}
